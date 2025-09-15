@@ -81,9 +81,9 @@ int main() {
    printf("Densidade Populacional: %.2f\n", densidade2);
    printf("Pib per Capita: %.2f\n", pibPerCapita2);
 
-   printf("\n================================");
+   printf("\n=======================");
    printf("Fim da exibição das cartas.\n");
-   printf("================================\n");
+   printf("=============================\n");
 
     return 0;
 }
