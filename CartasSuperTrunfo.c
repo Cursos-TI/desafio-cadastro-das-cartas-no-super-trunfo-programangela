@@ -18,6 +18,7 @@ int main() {
    float densidade2, pibPerCapita2;
 
    //Cadastro da Carta 1;
+   printf("\n=== Cadastro da Carta 1 ===\n");
    printf("Código A01: ");
    scanf("%s", codigo1);
 
@@ -38,6 +39,7 @@ int main() {
    pibPerCapita1 = pib1 / populacao1;
 
    //Cadastro Carta 2;
+   printf("\n=== Cadastro da Carta 2 ===\n");
    printf("Código B02: ");
    scanf("%s", codigo2);
 
@@ -57,6 +59,9 @@ int main() {
    densidade2 = populacao2 / area2;
    pibPerCapita2 = pib2 / populacao2;
 
+   printf("\n\n==============================\n");
+   printf("         Carta 1\n");
+   printf("===============================\n");
    printf("Código: %s\n", codigo1);
    printf("População: %d\n", populacao1);
    printf("Área: %.2f km²\n", area1);
@@ -65,6 +70,9 @@ int main() {
    printf("Densidade Populacional: %.2f\n", densidade1);
    printf("Pib per Capita: %.2f\n", pibPerCapita1);
 
+   printf("\n\n==============================\n");
+   printf("         Carta 2\n");
+   printf("===============================\n");
    printf("Código: %s\n", codigo2);
    printf("População: %d\n", populacao2);
    printf("Área: %.2f km²\n", area2);
@@ -73,6 +81,9 @@ int main() {
    printf("Densidade Populacional: %.2f\n", densidade2);
    printf("Pib per Capita: %.2f\n", pibPerCapita2);
 
+   printf("\n================================");
+   printf("Fim da exibição das cartas.\n");
+   printf("================================\n");
 
     return 0;
 }
